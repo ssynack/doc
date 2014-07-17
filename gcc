@@ -1,0 +1,10 @@
+1. 只进行预处理
+   gcc -E -o test test.c
+   不删除注释信息
+   gcc -E -C -o test test.c
+
+2. 预处理、编译、汇编
+   gcc -c -o test test.c
+
+3. 预处理、编译
+   gcc -S -o test test.c
